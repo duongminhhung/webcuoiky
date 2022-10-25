@@ -34,10 +34,10 @@
         <div class="box-container">
 
             <?php foreach ($result_category as $item) { ?>
-                <button data-id='<?php echo $item['id_category'] ?>' class="box box1">
+                <a href="?action=select&&id_category=<?php echo $item['id_category'] ?>"><button data-id='<?php echo $item['id_category'] ?>' class="box box1">
                     <?php echo '<img  src="data:image/png;base64,' . base64_encode($item['img_category']) . '" />'; ?>
                     <h3><?php echo $item['name_category'] ?></h3>
-                </button>
+                </button></a>
             <?php } ?>
 
 

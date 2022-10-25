@@ -15,6 +15,18 @@ class LopController{
         require 'model/Home.php';
         require 'view/home/products.php';
     }
+    public function select(){
+        require 'model/Home.php';
+        require 'view/home/products1.php';
+    }
+    public function contact(){
+        require 'view/home/contact.php';
+    }
+    public function login(){
+        // require 'view/css/style.css';
+        require 'view/home/login.php';
+
+    }
     
     
 }
