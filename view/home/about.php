@@ -36,8 +36,11 @@
 
     <div class="content">
         <h3>our story</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam modi ea fuga quibusdam fugiat porro doloremque, quas dignissimos culpa unde. Recusandae maxime aliquam beatae reiciendis, facilis voluptatum eligendi nesciunt ipsa?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, distinctio et? Odio voluptatum eius reprehenderit saepe quisquam excepturi molestiae architecto.</p>
+        <p>Shopee là nền tảng thương mại điện tử hàng đầu tại Đông Nam Á và Đài Loan.
+Ra mắt năm 2015, nền tảng thương mại Shopee được xây dựng nhằm cung cấp cho người dùng những trải nghiệm dễ dàng, an toàn và nhanh chóng khi mua sắm trực tuyến thông qua hệ thống hỗ trợ thanh toán và vận hành vững mạnh.
+
+Chúng tôi có niềm tin mạnh mẽ rằng trải nghiệm mua sắm trực tuyến phải đơn giản, dễ dàng và mang đến cảm xúc vui thích. Niềm tin này truyền cảm hứng và thúc đẩy chúng tôi mỗi ngày tại Shopee.?</p>
+       
         <a href="#" class="btn">read more</a>
     </div>
 
@@ -55,21 +58,21 @@
 
         <div class="accordion">
             <div class="accordion-heading">
-                <h3>how to make websites?</h3>
+                <h3>Our target?</h3>
                 <i class="fas fa-angle-down"></i>
             </div>
             <p class="accordioin-content">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, laboriosam non eligendi reiciendis quis laborum exercitationem voluptatibus autem harum nihil nisi sed mollitia, quam blanditiis architecto cumque? Sit, voluptate maiores.
+            Chúng tôi tin tưởng vào sức mạnh khai triển của công nghệ và mong muốn góp phần làm cho thế giới trở nên tốt đẹp hơn bằng việc kết nối cộng đồng người mua và người bán thông qua việc cung cấp một nền tảng thương mại điện tử.
             </p>
         </div>
 
         <div class="accordion">
             <div class="accordion-heading">
-                <h3>how to place order online?</h3>
+                <h3>Our Positioning?</h3>
                 <i class="fas fa-angle-down"></i>
             </div>
             <p class="accordioin-content">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus, laboriosam non eligendi reiciendis quis laborum exercitationem voluptatibus autem harum nihil nisi sed mollitia, quam blanditiis architecto cumque? Sit, voluptate maiores.
+            Đối với người dùng trên toàn khu vực, Shopee mang đến trải nghiệm mua sắm trực tuyến tích hợp với vô số sản phẩm đa dạng chủng loại, cộng đồng người dùng năng động và chuỗi dịch vụ liền mạch
             </p>
         </div>
 

@@ -6,11 +6,19 @@ switch ($action) {
     case 'about':
     case 'products':
     case 'select':
-    case 'contact':
     case 'login':
+    case 'signup':
+    case 'signin':
+    case 'logout':
+    case 'contact':
+    case 'cart':
+    case 'add_cart':
+    case 'update_quantity':
+    case 'search':
         (new LopController())->$action();
         break;
     default:
-        echo "nhap sai action";
+    echo "<script>location.href='?action=login';</script>";
+
         break;
 }

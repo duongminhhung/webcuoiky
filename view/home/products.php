@@ -62,7 +62,7 @@
                         <?php echo '<img class="hover-img" src="data:image/png;base64,' . base64_encode($item['imghover']) . '" />'; ?>
 
                         <div class="icons">
-                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="?action=add_cart&&id=<?php echo $item['id'] ?>" class="fas fa-shopping-cart"></a>
                             <a href="#" class="fas fa-search-plus"></a>
                             <a href="#" class="fas fa-heart"></a>
                             <a href="#" class="fas fa-share"></a>

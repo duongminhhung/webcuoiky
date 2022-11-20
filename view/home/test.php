@@ -1,3 +1,9 @@
+<?php 
+session_start();
+if(empty($_SESSION['id'])){
+    echo "<script>location.href='?action=login';</script>";
+  exit;
+}?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,40 +21,48 @@
     <!-- cusom css file link  -->
     <link rel="stylesheet" href="view/css/style.css">
 
-  
-
 </head>
 <body>
     
-<!-- header section starts  -->
+<header class="header">
 
-<?php require 'header.php';?>
+    <a href="?action=index" class="logo"> <i class="fas fa-store"></i> shopie </a>
 
-<!-- header section ends -->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
 
-<!-- side-bar section starts -->
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <a href="login.html" class="fas fa-user"></a>
+        <a href="#" class="fas fa-heart"></a>
+        <a href="cart.html" class="fas fa-shopping-cart"></a>
+    </div>
 
-<!-- <div class="side-bar">
+</header>
+<div class="side-bar">
 
     <div id="close-side-bar" class="fas fa-times"></div>
 
     <div class="user">
         <img src="images/user-img.png" alt="">
         <h3>shaikh anas</h3>
-        <a href="#">log out</a>
+        <a href="?action=logout">log out</a>
     </div>
 
     <nav class="navbar">
-        <a href="home.html"> <i class="fas fa-angle-right"></i> home </a>
-        <a href="about.html"> <i class="fas fa-angle-right"></i> about </a>
-        <a href="products.html"> <i class="fas fa-angle-right"></i> products </a>
-        <a href="contact.html"> <i class="fas fa-angle-right"></i> contact </a>
-        <a href="login.html"> <i class="fas fa-angle-right"></i> login </a>
-        <a href="register.html"> <i class="fas fa-angle-right"></i> register </a>
-        <a href="cart.html"> <i class="fas fa-angle-right"></i> cart </a>
+        <a href="?action=index"> <i class="fas fa-angle-right"></i> home </a>
+        <a href="?action=about"> <i class="fas fa-angle-right"></i> about </a>
+        <a href="?action=products"> <i class="fas fa-angle-right"></i> products </a>
+        <a href="?action=contact"> <i class="fas fa-angle-right"></i> contact </a>
+        <a href="?action=login"> <i class="fas fa-angle-right"></i> login </a>
+        <a href="?action=logout"> <i class="fas fa-angle-right"></i> logout </a>
+        <a href="?action=cart"> <i class="fas fa-angle-right"></i> cart </a>
     </nav>
 
-</div> -->
+</div>
 
 <!-- side-bar section ends -->
 
@@ -131,8 +145,7 @@
 
 <!-- footer section starts  -->
 
-<?php require 'footer.php';?>
-
+<?php require 'footer.php'?>
 <!-- footer section ends -->
 
 

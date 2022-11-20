@@ -26,27 +26,7 @@
 
 <!-- side-bar section starts -->
 
-<div class="side-bar">
 
-    <div id="close-side-bar" class="fas fa-times"></div>
-
-    <div class="user">
-        <img src="images/user-img.png" alt="">
-        <h3>shaikh anas</h3>
-        <a href="#">log out</a>
-    </div>
-
-    <nav class="navbar">
-        <a href="?action=index"> <i class="fas fa-angle-right"></i> home </a>
-        <a href="?action=about"> <i class="fas fa-angle-right"></i> about </a>
-        <a href="?action=products"> <i class="fas fa-angle-right"></i> products </a>
-        <a href="?action=contact"> <i class="fas fa-angle-right"></i> contact </a>
-        <a href="?action=login"> <i class="fas fa-angle-right"></i> login </a>
-        <a href="?action=register"> <i class="fas fa-angle-right"></i> register </a>
-        <a href="?action=cart"> <i class="fas fa-angle-right"></i> cart </a>
-    </nav>
-
-</div>
 
 <!-- side-bar section ends -->
 
@@ -120,6 +100,7 @@
     <div class="box-container">
 
         <?php foreach ($result as $item) { ?>
+            <a href="?action=add_cart&&id=<?php echo $item['id'] ?>">
             <div class="box">
             <div class="image">
             <?php echo '<img class="main-img" src="data:image/png;base64,'.base64_encode($item['img']).'" />'; ?>
@@ -138,6 +119,7 @@
                 </div>
             </div>
         </div>
+            </a>
         <?php }?>
 
 

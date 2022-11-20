@@ -8,24 +8,22 @@
         <a href="?action=products"> products </a>
         <a href="?action=contact"> contact </a>
         <a href="?action=login"> login </a>
-        <a href="register.html"> register </a>
-        <a href="cart.html"> cart </a>
+        <a href="?action=logout"> logout </a>
+        <a href="?action=cart"> cart </a>
     </div>
 
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-github"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://github.com/duongminhhung" class="fab fa-github"></a>
+        <a href="https://www.instagram.com/_wyn.trang_/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
     </div>
 
 </section>
 
 <section class="credit">
 
-    <p> created by <span>mr. web designer</span> | all rights reserved! </p>
-
-    <img src="images/card_img.png" alt="">
+    
 
 </section>
 
