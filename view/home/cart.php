@@ -65,7 +65,7 @@ $cart = $_SESSION['cart'];
         <h3> subtotal : <span>$<?php echo $sum?></span> </h3>
         <h3> discount : <span>-$<?php echo $sale?></span> </h3>
         <h3> subtotal : <span>$<?php echo $sum - $sale?></span> </h3>
-        <a href="#" class="btn">proceed to checkout</a>
+        <a href="https://www.facebook.com/" class="btn">proceed to checkout</a>
     </div>
 
 </section>

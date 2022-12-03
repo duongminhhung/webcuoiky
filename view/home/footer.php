@@ -8,7 +8,7 @@
         <a href="?action=products"> products </a>
         <a href="?action=contact"> contact </a>
         <a href="?action=login"> login </a>
-        <a href="?action=logout"> logout </a>
+        <a href="?action=logout">việt </a>
         <a href="?action=cart"> cart </a>
     </div>
 
